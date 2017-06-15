@@ -41,6 +41,7 @@ public class Activator implements BundleActivator, FrameworkListener, Synchronou
         Bundle[] bundles = bundleContext.getBundles();
         for (int i = 0; i < bundles.length; i++) {
             logger.info(bundles[i].getSymbolicName());
+            logger.info("bundle name is printed");
 
         }
     }

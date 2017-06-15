@@ -29,7 +29,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>sample.bundle1</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0.1</version>
     <packaging>bundle</packaging>
 
     <name>sample-bundle1</name>
@@ -67,9 +67,8 @@
         <org.eclipse.osgi.version>3.11.0.v20160603-1336</org.eclipse.osgi.version>
         <pax-logging-api.version>1.9.0</pax-logging-api.version>
         <bundle.activator>org.wso2.c5.patching.model.Activator</bundle.activator>
-        <import.package>org.osgi.framework.*,</import.package>
-        <export.package>
-            org.wso2.c5.patching.model;version="1.0.0",
+        <import.package>org.osgi.framework.*;version="[1.8.0,2.0.0)",</import.package>
+        <export.package>org.wso2.c5.patching.model;version="1.0.0.1",
         </export.package>
     </properties>
 </project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1497522113645" transient="false">
+	<site updateable="true" url="file:../lib/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.wso2.carbon.runtime" version="5.2.0.m3" url="features/org.wso2.carbon.runtime_5.2.0.m3/">
+		</feature>
+		<feature id="org.wso2.carbon.kernel" version="5.2.0.m3" url="features/org.wso2.carbon.kernel_5.2.0.m3/">
+		</feature>
+	</site>
+	<site updateable="true" url="file:../../../../../../../../Idea Workplace in Dell/wso2/newPatchModel/samplefeatures/newc5pack/wso2carbon-kernel-5.2.0-m3/wso2/lib/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="sample" version="1.0.0.1" url="features/sample_1.0.0.1/">
+		</feature>
+	</site>
+</config>
